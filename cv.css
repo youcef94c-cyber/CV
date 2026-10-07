@@ -1,0 +1,85 @@
+/* ====== STYLES GÉNÉRAUX ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== EN-TÊTE ====== */
+.header {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+/* ====== CONTENEUR PRINCIPAL ====== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ====== SECTIONS ====== */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #004aad;
+    border-bottom: 2px solid #004aad;
+    padding-bottom: 5px;
+}
+
+/* ====== EXPÉRIENCES ====== */
+.experience-item {
+    margin-bottom: 15px;
+}
+
+.experience-item h3 {
+    margin: 0;
+    color: #222;
+}
+
+.experience-item ul {
+    margin-top: 5px;
+}
+
+/* ====== COMPÉTENCES ====== */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    background-color: #e6f0ff;
+    border: 1px solid #004aad;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+/* ====== PIED DE PAGE ====== */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    padding: 20px 0;
+}

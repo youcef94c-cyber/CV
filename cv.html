@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - HTML5 & CSS3</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+
+<body>
+
+    <!-- ===== En-tête du CV ===== -->
+
+
+    <header class="header">
+        <h1>Youcef EL JAZOULI</h1>
+        <p>Etudiant POLYTECH Sorbonne</p>
+        <div class="contact">
+            <p>Email : youcef.eljazouli.com | Téléphone : 07 74 75 49 09</p>
+            <p>LinkedIn : linkedin.com/in/youcef-el-jazouli</p>
+        </div>
+    </header>
+
+    <!-- ===== Contenu principal ===== -->
+
+
+    <main class="container">
+
+
+        <!-- Diplomes/Etudes -->
+        <section class="section">
+            <h2>Diplomes/Etudes</h2>
+            <div class="experience-item">
+                <p><em><strong>2024 -2026</strong></em></p>
+                <p>Classe préparatoire intégrée Parcours des écoles d’ingénieurs Polytech (PEIP). Sorbonne - Paris</p>
+
+            </div>
+
+            <div class="experience-item">
+                <p><em><strong>2023-2024</strong></em></p>
+                <p>Classe préparatoire Physique Chimie Science de l’ingénieur. École nationale de chimie physique et biologie. Paris</p>
+
+            </div>
+
+            <div class="experience-item">
+                <p><em><strong>2022-2023</strong></em></p>
+                <p>Baccalauréat spécialité : Maths, Physique-Chimie, Option Maths experte – Mention bien.</p>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- Expériences -->
+        <section class="section">
+            <h2>Expériences Professionnelles</h2>
+            <div class="experience-item">
+                <h3>Stage : Cabinet expert-comptable</h3>
+                <p><em>Juin 2025 – Juillet 2025</em></p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Stage : Pharmacie</h3>
+                <p><em>Fevrier 2020</em></p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section class="section">
+            <h2>Compétences</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Langage C</li>
+                <li>Python</li>
+                <li>SolidWorks</li>
+                <li>Sweet Home 3D</li>
+            </ul>
+        </section>
+
+        <!-- Langues -->
+        <section class="section">
+            <h2>Langues</h2>
+
+
+
+<!-- Partie Langues Animée -->
+
+<div class="language-container">
+  <div class="language-label">Français</div>
+  <div class="progress-bar">
+    <div class="progress-fill" style="--level: 100%;"></div>
+  </div>
+  <div class="levels">
+    <span>A1</span>
+    <span>A2</span>
+    <span>B1</span>
+    <span>B2</span>
+    <span>C1</span>
+    <span class="active">C2</span>
+
+  </div>
+<div class="language-container">
+  <div class="language-label">Anglais</div>
+  <div class="progress-bar">
+    <div class="progress-fill" style="--level: 70%;"></div>
+  </div>
+  <div class="levels">
+    <span>A1</span>
+    <span>A2</span>
+    <span>B1</span>
+    <span class="active">B2</span>
+    <span class="active">C1</span>
+    <span>C2</span>
+  </div>
+</div>
+
+<div class="language-container">
+  <div class="language-label">Espagnol</div>
+  <div class="progress-bar">
+    <div class="progress-fill" style="--level: 40%;"></div>
+  </div>
+  <div class="levels">
+    <span>A1</span>
+    <span>A2</span>
+    <span class="active">B1</span>
+    <span>B2</span>
+    <span>C1</span>
+    <span>C2</span>
+
+  </div>
+
+<div class="language-container">
+  <div class="language-label">Arabe</div>
+  <div class="progress-bar">
+    <div class="progress-fill" style="--level: 100%;"></div>
+  </div>
+  <div class="levels">
+    <span>A1</span>
+    <span>A2</span>
+    <span>B1</span>
+    <span>B2</span>
+    <span>C1</span>
+    <span class="active">C2</span>
+
+  </div>
+</div>
+
+<style>
+.language-container {
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+.language-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.progress-bar {
+  position: relative;
+  height: 25px;
+  background: #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #4f46e5, #3b82f6);
+  border-radius: 15px;
+  animation: fillAnimation 2s forwards;
+}
+@keyframes fillAnimation {
+  from { width: 0; }
+  to { width: var(--level); }
+}
+.levels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+.levels span.active {
+  color: #4f46e5;
+  font-weight: bold;
+}
+</style>
+
+            
+        </section>
+
+
+        <!-- Centre d'intérêt -->
+        <section class="section">
+            <h2>Centre d'intérêt</h2>
+            <ul class="skills-list">
+                <li>Boxe thaïlandaise</li>
+                <li>Tennis de table</li>
+                <li>Basket</li>
+                <li>Musculation</li>
+            </ul>
+        </section>
+
+
+    </main>
+
+    <!-- ===== Pied de page ===== -->
+    <footer>
+        <p>&copy; 2025 Youcef EL JAZOULI. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
